@@ -12,7 +12,7 @@ def createDict(path,repeats,words):
 def main():
 	numbers = string.digits  # 0-9 string
 	path = 'dictionary.txt'
-	length =  10 #độ dài của passwword
+	length =  8 #độ dài của passwword
 	for i in range(1,length):
 		createDict(path,i,numbers)
 
